@@ -1,0 +1,14 @@
+- renk paleti
+#47d18c
+#e6d279
+#f2b25e
+
+- hakkımda
+
+- Ben Deniz Dağlı, 24 yaşındayım.
+- Bilgisayar mühendisiyim.
+- Veri bilimi ve yapay zeka ile ilgileniyorum.
+
+
+linkler
+https://github.com/ddagli1/M4L2-First
