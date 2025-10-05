@@ -22,9 +22,9 @@ def process_form():
     text = request.form.get('text')
 
     # Geri bildirim formunu işleme (verileri dosyaya yazma)
-    if email and text:
-        with open('form.txt', 'a') as file:
-            file.write(f'Email:{email},\nMesaj:{text}\n')
+    if email and text: 
+        with open('form.txt', 'a',encoding="utf-8") as f:
+            f.write(f"Ulaşan email: {email} \n Ulaşan yorum {text} \n")
 
     return render_template('index.html', button_python=button_python, button_discord=button_discord)
 
